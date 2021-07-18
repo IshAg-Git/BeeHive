@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 10px;
+}
+@media (max-width: 1430px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    font-size: 9px;
+  }
+}
+@media (max-width: 850px) {
+  body {
+    font-size: 8px;
+  }
+}
+@media (max-width: 640px) {
+  body {
+    font-size: 7px;
+  }
+}
+
+.navbar {
+  height: 10vh;
+  background-color: black;
+  padding: 0;
+  position: relative;
+  z-index: 100;
+}
+
+.img {
+  display: inline-block;
+  width: 3.5%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.hive {
+  width: 100%;
+  margin: 0.6rem 3rem;
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+  color: #f3eeea;
+  font-family: "Baloo 2", cursive;
+  font-size: 400%;
+  font-weight: 700;
+  margin: 0.2rem 50% 0 8rem;
+  padding: 0;
+}
+@media (max-width: 1430px) {
+  .title {
+    margin: 0.2rem 30% 0 8rem;
+  }
+}
+@media (max-width: 1200px) {
+  .title {
+    margin: 0.2rem 10% 0 6rem;
+  }
+}
+@media (max-width: 850px) {
+  .title {
+    margin: 0.2rem 10% 0 5rem;
+  }
+}
+@media (max-width: 640px) {
+  .title {
+    margin: 0.2rem 4rem 0 4rem;
+  }
+}
+
+.PageToggle {
+  display: inline-block;
+  margin-top: -2rem;
+}
+
+.PageToggleSwitch {
+  display: inline-block;
+  color: #f3eeea;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 200%;
+  font-weight: 700;
+  margin: 0 2rem;
+  cursor: pointer;
+  height: 10vh;
+}
+@media (max-width: 1430px) {
+  .PageToggleSwitch {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 1200px) {
+  .PageToggleSwitch {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 850px) {
+  .PageToggleSwitch {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 640px) {
+  .PageToggleSwitch {
+    margin: 0 0.4rem;
+  }
+}
+
+.ToggleLink {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ToggleLink:hover {
+  text-decoration: underline;
+}
+
+.ToggleLink:visited,
+.ToggleLink:active {
+  color: white;
+}
+
+.FormContainer {
+  border: 0.8rem solid black;
+  margin: 5rem 25rem;
+  padding: 1.5rem;
+}
+@media (max-width: 1430px) {
+  .FormContainer {
+    margin: 5rem 18rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .FormContainer {
+    margin: 5rem 10rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 850px) {
+  .FormContainer {
+    margin: 5rem 5rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 640px) {
+  .FormContainer {
+    margin: 5rem 2rem;
+    padding: 1.5rem;
+  }
+}
+
+.head {
+  font-family: "Caveat", cursive;
+  font-size: 400%;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.FormLabel {
+  font-size: 200%;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+.FormInput {
+  font-size: 150%;
+  margin: 0.5rem 0 1rem 0;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: none;
+  height: 3vh;
+  border: none;
+  background-color: #fdd564;
+  color: black;
+}
+
+.FormInput:focus {
+  outline: none;
+  border-bottom: 0.1rem solid black;
+}
+
+.submit {
+  margin-left: 30%;
+  padding: 0.5rem;
+  font-size: 320%;
+  font-weight: 500;
+  width: 40%;
+  font-family: "Caveat", cursive;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  color: black;
+  border: 0.2rem solid black;
+}
+
+.submit:hover {
+  width: 39%;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.582);
+}
+
+.bee {
+  width: 12%;
+}
+
+.dash {
+  background-color: black;
+  background-image: url(hex.svg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  padding-bottom: 53vh;
+}
+
+.postArea {
+  background-color: #171718;
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.createNew {
+  padding: 1rem;
+  background-color: #272727;
+  border-radius: 0.5rem;
+}
+
+.newPost {
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #272727;
+  border-radius: 0.5rem;
+}
+
+.username {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 250%;
+  font-weight: 700;
+  display: inline-block;
+  color: white;
+  margin-right: 70%;
+}
+
+.username-box {
+  background-color: #272727;
+  border: none;
+  padding: 0.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 250%;
+  font-weight: 700;
+  display: inline-block;
+  color: white;
+  margin-right: 70%;
+}
+
+.icon {
+  display: inline-block;
+  padding: 0 0.3rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  height: 15%;
+}
+
+.like,
+.love {
+  margin-left: 0.2rem;
+}
+
+.count {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+  font-size: 170%;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  margin-left: 0.4rem;
+}
+
+textarea {
+  width: 90%;
+  height: 10vh;
+  padding: 0.5rem;
+  font-size: 180%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #323435;
+  color: aliceblue;
+}
+
+.post-btn {
+  background-color: #e0e0e0;
+  border: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  font-size: 200%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  width: 40%;
+}
+
+.post-btn:hover {
+  width: 39%;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.582);
+}
+
+.post-area {
+  color: white;
+  font-size: 200%;
+  font-family: "Josefin Sans", sans-serif;
+}/*# sourceMappingURL=index.css.map */
