@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BeeHive/static/css/main.5a5c0456.chunk.css",
+    "main.js": "/BeeHive/static/js/main.37bf0a6c.chunk.js",
+    "main.js.map": "/BeeHive/static/js/main.37bf0a6c.chunk.js.map",
+    "runtime-main.js": "/BeeHive/static/js/runtime-main.667e1e9c.js",
+    "runtime-main.js.map": "/BeeHive/static/js/runtime-main.667e1e9c.js.map",
+    "static/js/2.683c02d2.chunk.js": "/BeeHive/static/js/2.683c02d2.chunk.js",
+    "static/js/2.683c02d2.chunk.js.map": "/BeeHive/static/js/2.683c02d2.chunk.js.map",
+    "index.html": "/BeeHive/index.html",
+    "static/css/main.5a5c0456.chunk.css.map": "/BeeHive/static/css/main.5a5c0456.chunk.css.map",
+    "static/js/2.683c02d2.chunk.js.LICENSE.txt": "/BeeHive/static/js/2.683c02d2.chunk.js.LICENSE.txt",
+    "static/media/bee.a85ef10e.png": "/BeeHive/static/media/bee.a85ef10e.png",
+    "static/media/index.css": "/BeeHive/static/media/hex.241b8d90.svg",
+    "static/media/honeycomb.5755a561.png": "/BeeHive/static/media/honeycomb.5755a561.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.667e1e9c.js",
+    "static/js/2.683c02d2.chunk.js",
+    "static/css/main.5a5c0456.chunk.css",
+    "static/js/main.37bf0a6c.chunk.js"
+  ]
+}
